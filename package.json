@@ -1,0 +1,20 @@
+{
+  "name": "@shivam/redis",
+  "main": "./dist/src",
+  "scripts": {
+    "postinstall": "npm run build",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/ioredis": "^4.16.5",
+    "ioredis": "^4.17.3",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
+    "eslint": "^7.3.0",
+    "eslint-config-prettier": "^6.11.0",
+    "prettier": "^2.0.5"
+  }
+}
